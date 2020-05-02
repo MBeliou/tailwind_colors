@@ -58,3 +58,4 @@ TODO
 
 - [ ] Create a parser for tailwind configuration files. Placeholder code can be found [here](https://gist.github.com/MBeliou/be358b9c68035f6061681010c49b448c)
 - [ ] Show colors in the IDE tooltip
+- [ ] Make it possible to use the color swatch as is. (Like in ThemeData)

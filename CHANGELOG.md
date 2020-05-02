@@ -1,3 +1,7 @@
-## [0.0.1] - TODO: Add release date.
+## [0.1.0] - Chores
+* Adds an example -> See example/lib/main.dart for an usage example.
+* Longer description to fit with the pub guidelines
+* Version up to 0.1.0: API should not be subject to change but might be extended in the future.
 
-* TODO: Describe initial release.
+## [0.0.1] - Initial Release.
+* Initial Release
