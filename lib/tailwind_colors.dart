@@ -2,7 +2,6 @@ library tailwind_colors;
 
 import 'package:flutter/material.dart';
 
-
 part 'tailwind_ui_colors.dart';
 
 class TWColor extends ColorSwatch<int> {
