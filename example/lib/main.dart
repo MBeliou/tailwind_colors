@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        backgroundColor: TWUIColors.cool_gray.shade600,
+        backgroundColor:  TWUIColors.cool_gray.shade600,
       ),
       body: Center(
         child: Column(
@@ -46,10 +46,17 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'You have pushed the button this many times:',
+              style: TextStyle(
+                color: TWTwoColors.amber.shade500,
+                fontSize: 24,
+                fontWeight: FontWeight.w600,
+              ),
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.display1,
+              style: Theme.of(context).textTheme.headline4.copyWith(
+                color: TWTwoColors.fuchsia.shade600,
+              )
             ),
           ],
         ),

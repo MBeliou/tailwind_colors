@@ -1,3 +1,8 @@
+## [0.1.0] - Added Support for the Tailwind 2.0 color palette
+* The Tailwind 2.0 color palette can be found under <b>TWTwoColors</b>.
+* The color palette can be found on the [Tailwindcss Website](https://tailwindcss.com/docs/customizing-colors)
+
+
 ## [0.1.0] - Chores
 * Adds an example -> See example/lib/main.dart for an usage example.
 * Longer description to fit with the pub guidelines
