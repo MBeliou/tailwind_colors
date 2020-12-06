@@ -8,7 +8,7 @@ Installation
 
 ```yaml
 dependencies:
-    tailwind_colors: ^0.2.1
+    tailwind_colors: ^0.2.2
 ```
 
 2. Get the package via your IDE or via the command line by typing:

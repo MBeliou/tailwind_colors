@@ -1,6 +1,5 @@
 part of tailwind_colors;
 
-
 /// TWTwoColors is the 2.0 Tailwind color palette
 class TWTwoColors {
   /// The rose color and swatch.

@@ -1,3 +1,6 @@
+## [0.2.2] - Format
+* Running dartfmt
+
 ## [0.2.1] - Documentation updates
 * Added basic documentation 
 
