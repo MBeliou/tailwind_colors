@@ -1,3 +1,6 @@
+## [0.2.1] - Documentation updates
+* Added basic documentation 
+
 ## [0.2.0] - Added Support for the Tailwind 2.0 color palette
 * The Tailwind 2.0 color palette can be found under <b>TWTwoColors</b>.
 * The color palette can be found on the [Tailwindcss Website](https://tailwindcss.com/docs/customizing-colors)

@@ -1,6 +1,18 @@
 part of tailwind_colors;
 
+
+/// TWTwoColors is the 2.0 Tailwind color palette
 class TWTwoColors {
+  /// The rose color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.rose.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor rose = TWColor(_rosePrimaryValue, {
     50: Color(0xfffff1f2),
     100: Color(0xffffe4e6),
@@ -15,6 +27,16 @@ class TWTwoColors {
   });
   static const int _rosePrimaryValue = (0xfff43f5e);
 
+  /// The pink color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.pink.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor pink = TWColor(_pinkPrimaryValue, {
     50: Color(0xfffdf2f8),
     100: Color(0xfffce7f3),
@@ -29,6 +51,16 @@ class TWTwoColors {
   });
   static const int _pinkPrimaryValue = (0xffec4899);
 
+  /// The fuchsia color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.fuchsia.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor fuchsia = TWColor(_fuchsiaPrimaryValue, {
     50: Color(0xfffdf4ff),
     100: Color(0xfffae8ff),
@@ -43,6 +75,16 @@ class TWTwoColors {
   });
   static const int _fuchsiaPrimaryValue = (0xffd946ef);
 
+  /// The purple color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.purple.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor purple = TWColor(_purplePrimaryValue, {
     50: Color(0xfffaf5ff),
     100: Color(0xfff3e8ff),
@@ -57,6 +99,16 @@ class TWTwoColors {
   });
   static const int _purplePrimaryValue = (0xffa855f7);
 
+  /// The violet color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.violet.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor violet = TWColor(_violetPrimaryValue, {
     50: Color(0xfff5f3ff),
     100: Color(0xffede9fe),
@@ -71,6 +123,16 @@ class TWTwoColors {
   });
   static const int _violetPrimaryValue = (0xff8b5cf6);
 
+  /// The indigo color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.indigo.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor indigo = TWColor(_indigoPrimaryValue, {
     50: Color(0xffeef2ff),
     100: Color(0xffe0e7ff),
@@ -85,6 +147,16 @@ class TWTwoColors {
   });
   static const int _indigoPrimaryValue = (0xff6366f1);
 
+  /// The blue color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.blue.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor blue = TWColor(_bluePrimaryValue, {
     50: Color(0xffeff6ff),
     100: Color(0xffdbeafe),
@@ -99,6 +171,16 @@ class TWTwoColors {
   });
   static const int _bluePrimaryValue = (0xff3b82f6);
 
+  /// The lightBlue color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.lightBlue.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor lightBlue = TWColor(_lightBluePrimaryValue, {
     50: Color(0xfff0f9ff),
     100: Color(0xffe0f2fe),
@@ -113,6 +195,16 @@ class TWTwoColors {
   });
   static const int _lightBluePrimaryValue = (0xff0ea5e9);
 
+  /// The cyan color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.cyan.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor cyan = TWColor(_cyanPrimaryValue, {
     50: Color(0xffecfeff),
     100: Color(0xffcffafe),
@@ -127,6 +219,16 @@ class TWTwoColors {
   });
   static const int _cyanPrimaryValue = (0xff06b6d4);
 
+  /// The teal color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.teal.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor teal = TWColor(_tealPrimaryValue, {
     50: Color(0xfff0fdfa),
     100: Color(0xffccfbf1),
@@ -141,6 +243,16 @@ class TWTwoColors {
   });
   static const int _tealPrimaryValue = (0xff14b8a6);
 
+  /// The emerald color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.emerald.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor emerald = TWColor(_emeraldPrimaryValue, {
     50: Color(0xffecfdf5),
     100: Color(0xffd1fae5),
@@ -155,6 +267,16 @@ class TWTwoColors {
   });
   static const int _emeraldPrimaryValue = (0xff10b981);
 
+  /// The green color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.green.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor green = TWColor(_greenPrimaryValue, {
     50: Color(0xfff0fdf4),
     100: Color(0xffdcfce7),
@@ -169,6 +291,16 @@ class TWTwoColors {
   });
   static const int _greenPrimaryValue = (0xff22c55e);
 
+  /// The lime color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.lime.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor lime = TWColor(_limePrimaryValue, {
     50: Color(0xfff7fee7),
     100: Color(0xffecfccb),
@@ -183,6 +315,16 @@ class TWTwoColors {
   });
   static const int _limePrimaryValue = (0xff84cc16);
 
+  /// The yellow color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.yellow.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor yellow = TWColor(_yellowPrimaryValue, {
     50: Color(0xfffefce8),
     100: Color(0xfffef9c3),
@@ -197,6 +339,16 @@ class TWTwoColors {
   });
   static const int _yellowPrimaryValue = (0xffeab308);
 
+  /// The amber color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.amber.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor amber = TWColor(_amberPrimaryValue, {
     50: Color(0xfffffbeb),
     100: Color(0xfffef3c7),
@@ -211,6 +363,16 @@ class TWTwoColors {
   });
   static const int _amberPrimaryValue = (0xfff59e0b);
 
+  /// The orange color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.orange.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor orange = TWColor(_orangePrimaryValue, {
     50: Color(0xfffff7ed),
     100: Color(0xffffedd5),
@@ -225,6 +387,16 @@ class TWTwoColors {
   });
   static const int _orangePrimaryValue = (0xfff97316);
 
+  /// The red color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.red.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor red = TWColor(_redPrimaryValue, {
     50: Color(0xfffef2f2),
     100: Color(0xfffee2e2),
@@ -239,6 +411,16 @@ class TWTwoColors {
   });
   static const int _redPrimaryValue = (0xffef4444);
 
+  /// The warmGray color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.warmGray.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor warmGray = TWColor(_warmGrayPrimaryValue, {
     50: Color(0xfffafaf9),
     100: Color(0xfff5f5f4),
@@ -253,6 +435,16 @@ class TWTwoColors {
   });
   static const int _warmGrayPrimaryValue = (0xff78716c);
 
+  /// The trueGray color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.trueGray.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor trueGray = TWColor(_trueGrayPrimaryValue, {
     50: Color(0xfffafafa),
     100: Color(0xfff5f5f5),
@@ -267,6 +459,16 @@ class TWTwoColors {
   });
   static const int _trueGrayPrimaryValue = (0xff737373);
 
+  /// The gray color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.gray.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor gray = TWColor(_grayPrimaryValue, {
     50: Color(0xfffafafa),
     100: Color(0xfff4f4f5),
@@ -281,6 +483,16 @@ class TWTwoColors {
   });
   static const int _grayPrimaryValue = (0xff71717a);
 
+  /// The coolGray color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.coolGray.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor coolGray = TWColor(_coolGrayPrimaryValue, {
     50: Color(0xfff9fafb),
     100: Color(0xfff3f4f6),
@@ -295,6 +507,16 @@ class TWTwoColors {
   });
   static const int _coolGrayPrimaryValue = (0xff6b7280);
 
+  /// The blueGray color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWTwoColors.blueGray.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor blueGray = TWColor(_blueGrayPrimaryValue, {
     50: Color(0xfff8fafc),
     100: Color(0xfff1f5f9),

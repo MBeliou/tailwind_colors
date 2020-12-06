@@ -1,6 +1,8 @@
 part of tailwind_colors;
 
+/// TWUIColors is an older version of the TailwindUI color palette
 class TWUIColors {
+  /// Gray swatch and color
   static const TWColor gray = TWColor(_grayPrimaryValue, {
     50: Color(0xfff9fafb),
     100: Color(0xfff4f5f7),
@@ -15,6 +17,7 @@ class TWUIColors {
   });
   static const int _grayPrimaryValue = (0xff6b7280);
 
+  /// Cool Gray swatch and color
   static const TWColor cool_gray = TWColor(_cool_grayPrimaryValue, {
     50: Color(0xfffbfdfe),
     100: Color(0xfff1f5f9),
@@ -29,6 +32,7 @@ class TWUIColors {
   });
   static const int _cool_grayPrimaryValue = (0xff64748b);
 
+  /// Red swatch and color
   static const TWColor red = TWColor(_redPrimaryValue, {
     50: Color(0xfffdf2f2),
     100: Color(0xfffde8e8),
@@ -42,6 +46,8 @@ class TWUIColors {
     900: Color(0xff771d1d),
   });
   static const int _redPrimaryValue = (0xfff05252);
+
+  /// Orange swatch and color
   static const TWColor orange = TWColor(_orangePrimaryValue, {
     50: Color(0xfffff8f1),
     100: Color(0xfffeecdc),
@@ -56,6 +62,7 @@ class TWUIColors {
   });
   static const int _orangePrimaryValue = (0xffff5a1f);
 
+  /// Yellow swatch and color
   static const TWColor yellow = TWColor(_yellowPrimaryValue, {
     50: Color(0xfffdfdea),
     100: Color(0xfffdf6b2),
@@ -70,6 +77,7 @@ class TWUIColors {
   });
   static const int _yellowPrimaryValue = (0xffc27803);
 
+  /// Green swatch and color
   static const TWColor green = TWColor(_greenPrimaryValue, {
     50: Color(0xfff3faf7),
     100: Color(0xffdef7ec),
@@ -84,6 +92,7 @@ class TWUIColors {
   });
   static const int _greenPrimaryValue = (0xff0e9f6e);
 
+  /// Teal swatch and color
   static const TWColor teal = TWColor(_tealPrimaryValue, {
     50: Color(0xffedfafa),
     100: Color(0xffd5f5f6),
@@ -98,6 +107,7 @@ class TWUIColors {
   });
   static const int _tealPrimaryValue = (0xff0694a2);
 
+  /// Blue swatch and color
   static const TWColor blue = TWColor(_bluePrimaryValue, {
     50: Color(0xffebf5ff),
     100: Color(0xffe1effe),
@@ -112,6 +122,7 @@ class TWUIColors {
   });
   static const int _bluePrimaryValue = 0xff3f83f8;
 
+  /// Indigo swatch and color
   static const TWColor indigo = TWColor(_indigoPrimaryValue, {
     50: Color(0xfff0f5ff),
     100: Color(0xffe5edff),
@@ -126,6 +137,7 @@ class TWUIColors {
   });
   static const int _indigoPrimaryValue = 0xff6875f5;
 
+  /// Purple swatch and color
   static const TWColor purple = TWColor(_purplePrimaryValue, {
     50: Color(0xfff6f5ff),
     100: Color(0xffedebfe),
@@ -140,6 +152,16 @@ class TWUIColors {
   });
   static const int _purplePrimaryValue = 0xff9061f9;
 
+  /// The pink color and swatch.
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWUIColors.pink.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
   static const TWColor pink = TWColor(_pinkPrimaryValue, {
     50: Color(0xfffdf2f8),
     100: Color(0xfffce8f3),

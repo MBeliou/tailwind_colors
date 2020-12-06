@@ -5,6 +5,15 @@ import 'package:flutter/material.dart';
 part 'tailwind_ui_colors.dart';
 part 'tailwind_two_colors.dart';
 
+/// TWColor defines a single color as well as a color swatch with ten shades of the color.
+/// 
+///  The color's shades are referred to by index. The greater the index, the
+/// darker the color. There are 10 valid indices: 50, 100, 200, ..., 900.
+/// The value of this color should the same the value of index 500 and [shade500].
+/// 
+/// See also:
+///
+///  * [MaterialColor], which this class is based on.
 class TWColor extends ColorSwatch<int> {
   /// Creates a color swatch with a variety of shades.
   ///
@@ -45,7 +54,9 @@ class TWColor extends ColorSwatch<int> {
   Color get shade900 => this[900];
 }
 
+/// TWColors is the initial Tailwind color palette
 class TWColors {
+  /// Gray swatch and color
   static const TWColor gray = TWColor(_grayPrimaryValue, {
     100: Color(0xfff7fafc),
     200: Color(0xffedf2f7),
@@ -58,6 +69,8 @@ class TWColors {
     900: Color(0xff1a202c),
   });
   static const int _grayPrimaryValue = (0xffa0aec0);
+
+  /// Red swatch and color
   static const TWColor red = TWColor(_redPrimaryValue, {
     100: Color(0xfffff5f5),
     200: Color(0xfffed7d7),
@@ -70,6 +83,8 @@ class TWColors {
     900: Color(0xff742a2a),
   });
   static const int _redPrimaryValue = (0xfff56565);
+
+  /// Orange swatch and color
   static const TWColor orange = TWColor(_orangePrimaryValue, {
     100: Color(0xfffffaf0),
     200: Color(0xfffeebc8),
@@ -82,6 +97,8 @@ class TWColors {
     900: Color(0xff7b341e),
   });
   static const int _orangePrimaryValue = (0xffed8936);
+
+  /// Yellow swatch and color
   static const TWColor yellow = TWColor(_yellowPrimaryValue, {
     100: Color(0xfffffff0),
     200: Color(0xfffefcbf),
@@ -94,6 +111,8 @@ class TWColors {
     900: Color(0xff744210),
   });
   static const int _yellowPrimaryValue = (0xffecc94b);
+
+  /// Green swatch and color
   static const TWColor green = TWColor(_greenPrimaryValue, {
     100: Color(0xfff0fff4),
     200: Color(0xffc6f6d5),
@@ -106,6 +125,8 @@ class TWColors {
     900: Color(0xff22543d),
   });
   static const int _greenPrimaryValue = (0xff48bb78);
+
+  /// Teal swatch and color
   static const TWColor teal = TWColor(_tealPrimaryValue, {
     100: Color(0xffe6fffa),
     200: Color(0xffb2f5ea),
@@ -118,6 +139,8 @@ class TWColors {
     900: Color(0xff234e52),
   });
   static const int _tealPrimaryValue = (0xff38b2ac);
+
+  /// Blue swatch and color
   static const TWColor blue = TWColor(_bluePrimaryValue, {
     100: Color(0xffebf8ff),
     200: Color(0xffbee3f8),
@@ -130,6 +153,8 @@ class TWColors {
     900: Color(0xff2a4365),
   });
   static const int _bluePrimaryValue = (0xff4299e1);
+
+  /// Indigo swatch and color
   static const TWColor indigo = TWColor(_indigoPrimaryValue, {
     100: Color(0xffebf4ff),
     200: Color(0xffc3dafe),
@@ -142,6 +167,8 @@ class TWColors {
     900: Color(0xff3c366b),
   });
   static const int _indigoPrimaryValue = (0xff667eea);
+
+  /// Purple swatch and color
   static const TWColor purple = TWColor(_purplePrimaryValue, {
     100: Color(0xfffaf5ff),
     200: Color(0xffe9d8fd),
@@ -154,6 +181,8 @@ class TWColors {
     900: Color(0xff44337a),
   });
   static const int _purplePrimaryValue = (0xff9f7aea);
+
+  /// Pink swatch and color
   static const TWColor pink = TWColor(_pinkPrimaryValue, {
     100: Color(0xfffff5f7),
     200: Color(0xfffed7e2),
