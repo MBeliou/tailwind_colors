@@ -18,7 +18,7 @@ $ pub get
 
 3. Import the `tailwind_colors` package
 ```dart
-import 'package:tailwind_colors/tailwind_colors.dart;
+import 'package:tailwind_colors/tailwind_colors.dart';
 ```
 
 How to Use
