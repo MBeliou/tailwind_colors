@@ -85,16 +85,16 @@ class TWTwoColors {
   /// ```
   /// {@end-tool}
   static const TWColor purple = TWColor(_purplePrimaryValue, {
-    50: Color(0xfffaf5ff),
-    100: Color(0xfff3e8ff),
-    200: Color(0xffe9d5ff),
-    300: Color(0xffd8b4fe),
-    400: Color(0xffc084fc),
-    500: Color(_purplePrimaryValue),
-    600: Color(0xff9333ea),
-    700: Color(0xff7e22ce),
-    800: Color(0xff6b21a8),
-    900: Color(0xff581c87),
+    50: const Color(0xfffaf5ff),
+    100: const Color(0xfff3e8ff),
+    200: const Color(0xffe9d5ff),
+    300: const Color(0xffd8b4fe),
+    400: const Color(0xffc084fc),
+    500: const Color(_purplePrimaryValue),
+    600: const Color(0xff9333ea),
+    700: const Color(0xff7e22ce),
+    800: const Color(0xff6b21a8),
+    900: const Color(0xff581c87),
   });
   static const int _purplePrimaryValue = (0xffa855f7);
 

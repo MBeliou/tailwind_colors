@@ -1,3 +1,7 @@
+## [0.3.0-nullsafety.1] - Null Safety
+* Migrated to Null Safety
+* Add support for converting to a Material Color
+
 ## [0.2.2] - Format
 * Running dartfmt
 

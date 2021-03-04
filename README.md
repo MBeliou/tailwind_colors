@@ -57,8 +57,27 @@ TWTwoColors features the Tailwind 2.0 color palette:
 - The palette can be found on the [TailwindCSS website](https://tailwindcss.com/docs/customizing-colors)
   
 
+## Use as a theme
+
+Every colors from the TWTwoColors and the TWUIColors palettes can be used.
+I recommend against using The older TWColors palette because of some null safety issues depending on your version of Flutter.
+
+```dart
+return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: TWTwoColors.fuschia.asMaterialColor,
+      ),
+      home: MyHomePage(
+          title: 'Flutter Demo Home Page',
+          onPress: () => setNewSwatch(
+                TWTwoColors.teal.asMaterialColor,
+              )),
+    );
+```
+
 TODO
 ---
 
 - [ ] Create a parser for tailwind configuration files. Placeholder code can be found [here](https://gist.github.com/MBeliou/be358b9c68035f6061681010c49b448c)
-- [ ] Make it possible to use the color swatch as is. (Like in ThemeData)
+- [X] Make it possible to use the color swatch as is. (Like in ThemeData)
