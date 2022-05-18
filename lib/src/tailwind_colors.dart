@@ -3,6 +3,7 @@ library tailwind_colors;
 import 'package:flutter/material.dart';
 
 part 'tailwind_1_colors.dart';
+part 'tailwind_3_colors.dart';
 part 'tailwind_two_colors.dart';
 part 'tailwind_ui_colors.dart';
 
