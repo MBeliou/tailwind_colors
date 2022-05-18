@@ -24,7 +24,7 @@ class TWTwoColors {
     800: Color(0xff9f1239),
     900: Color(0xff881337),
   });
-  static const int _rosePrimaryValue = (0xfff43f5e);
+  static const int _rosePrimaryValue = 0xfff43f5e;
 
   /// The pink color and swatch.
   /// {@tool snippet}
@@ -48,7 +48,7 @@ class TWTwoColors {
     800: Color(0xff9d174d),
     900: Color(0xff831843),
   });
-  static const int _pinkPrimaryValue = (0xffec4899);
+  static const int _pinkPrimaryValue = 0xffec4899;
 
   /// The fuchsia color and swatch.
   /// {@tool snippet}
@@ -72,7 +72,7 @@ class TWTwoColors {
     800: Color(0xff86198f),
     900: Color(0xff701a75),
   });
-  static const int _fuchsiaPrimaryValue = (0xffd946ef);
+  static const int _fuchsiaPrimaryValue = 0xffd946ef;
 
   /// The purple color and swatch.
   /// {@tool snippet}
@@ -85,18 +85,18 @@ class TWTwoColors {
   /// ```
   /// {@end-tool}
   static const TWColor purple = TWColor(_purplePrimaryValue, {
-    50: const Color(0xfffaf5ff),
-    100: const Color(0xfff3e8ff),
-    200: const Color(0xffe9d5ff),
-    300: const Color(0xffd8b4fe),
-    400: const Color(0xffc084fc),
-    500: const Color(_purplePrimaryValue),
-    600: const Color(0xff9333ea),
-    700: const Color(0xff7e22ce),
-    800: const Color(0xff6b21a8),
-    900: const Color(0xff581c87),
+    50: Color(0xfffaf5ff),
+    100: Color(0xfff3e8ff),
+    200: Color(0xffe9d5ff),
+    300: Color(0xffd8b4fe),
+    400: Color(0xffc084fc),
+    500: Color(_purplePrimaryValue),
+    600: Color(0xff9333ea),
+    700: Color(0xff7e22ce),
+    800: Color(0xff6b21a8),
+    900: Color(0xff581c87),
   });
-  static const int _purplePrimaryValue = (0xffa855f7);
+  static const int _purplePrimaryValue = 0xffa855f7;
 
   /// The violet color and swatch.
   /// {@tool snippet}
@@ -120,7 +120,7 @@ class TWTwoColors {
     800: Color(0xff5b21b6),
     900: Color(0xff4c1d95),
   });
-  static const int _violetPrimaryValue = (0xff8b5cf6);
+  static const int _violetPrimaryValue = 0xff8b5cf6;
 
   /// The indigo color and swatch.
   /// {@tool snippet}
@@ -144,7 +144,7 @@ class TWTwoColors {
     800: Color(0xff3730a3),
     900: Color(0xff312e81),
   });
-  static const int _indigoPrimaryValue = (0xff6366f1);
+  static const int _indigoPrimaryValue = 0xff6366f1;
 
   /// The blue color and swatch.
   /// {@tool snippet}
@@ -168,7 +168,7 @@ class TWTwoColors {
     800: Color(0xff1e40af),
     900: Color(0xff1e3a8a),
   });
-  static const int _bluePrimaryValue = (0xff3b82f6);
+  static const int _bluePrimaryValue = 0xff3b82f6;
 
   /// The lightBlue color and swatch.
   /// {@tool snippet}
@@ -192,7 +192,7 @@ class TWTwoColors {
     800: Color(0xff075985),
     900: Color(0xff0c4a6e),
   });
-  static const int _lightBluePrimaryValue = (0xff0ea5e9);
+  static const int _lightBluePrimaryValue = 0xff0ea5e9;
 
   /// The cyan color and swatch.
   /// {@tool snippet}
@@ -216,7 +216,7 @@ class TWTwoColors {
     800: Color(0xff155e75),
     900: Color(0xff164e63),
   });
-  static const int _cyanPrimaryValue = (0xff06b6d4);
+  static const int _cyanPrimaryValue = 0xff06b6d4;
 
   /// The teal color and swatch.
   /// {@tool snippet}
@@ -240,7 +240,7 @@ class TWTwoColors {
     800: Color(0xff115e59),
     900: Color(0xff134e4a),
   });
-  static const int _tealPrimaryValue = (0xff14b8a6);
+  static const int _tealPrimaryValue = 0xff14b8a6;
 
   /// The emerald color and swatch.
   /// {@tool snippet}
@@ -264,7 +264,7 @@ class TWTwoColors {
     800: Color(0xff065f46),
     900: Color(0xff064e3b),
   });
-  static const int _emeraldPrimaryValue = (0xff10b981);
+  static const int _emeraldPrimaryValue = 0xff10b981;
 
   /// The green color and swatch.
   /// {@tool snippet}
@@ -288,7 +288,7 @@ class TWTwoColors {
     800: Color(0xff166534),
     900: Color(0xff14532d),
   });
-  static const int _greenPrimaryValue = (0xff22c55e);
+  static const int _greenPrimaryValue = 0xff22c55e;
 
   /// The lime color and swatch.
   /// {@tool snippet}
@@ -312,7 +312,7 @@ class TWTwoColors {
     800: Color(0xff3f6212),
     900: Color(0xff365314),
   });
-  static const int _limePrimaryValue = (0xff84cc16);
+  static const int _limePrimaryValue = 0xff84cc16;
 
   /// The yellow color and swatch.
   /// {@tool snippet}
@@ -336,7 +336,7 @@ class TWTwoColors {
     800: Color(0xff854d0e),
     900: Color(0xff713f12),
   });
-  static const int _yellowPrimaryValue = (0xffeab308);
+  static const int _yellowPrimaryValue = 0xffeab308;
 
   /// The amber color and swatch.
   /// {@tool snippet}
@@ -360,7 +360,7 @@ class TWTwoColors {
     800: Color(0xff92400e),
     900: Color(0xff78350f),
   });
-  static const int _amberPrimaryValue = (0xfff59e0b);
+  static const int _amberPrimaryValue = 0xfff59e0b;
 
   /// The orange color and swatch.
   /// {@tool snippet}
@@ -384,7 +384,7 @@ class TWTwoColors {
     800: Color(0xff9a3412),
     900: Color(0xff7c2d12),
   });
-  static const int _orangePrimaryValue = (0xfff97316);
+  static const int _orangePrimaryValue = 0xfff97316;
 
   /// The red color and swatch.
   /// {@tool snippet}
@@ -408,7 +408,7 @@ class TWTwoColors {
     800: Color(0xff991b1b),
     900: Color(0xff7f1d1d),
   });
-  static const int _redPrimaryValue = (0xffef4444);
+  static const int _redPrimaryValue = 0xffef4444;
 
   /// The warmGray color and swatch.
   /// {@tool snippet}
@@ -432,7 +432,7 @@ class TWTwoColors {
     800: Color(0xff292524),
     900: Color(0xff1c1917),
   });
-  static const int _warmGrayPrimaryValue = (0xff78716c);
+  static const int _warmGrayPrimaryValue = 0xff78716c;
 
   /// The trueGray color and swatch.
   /// {@tool snippet}
@@ -456,7 +456,7 @@ class TWTwoColors {
     800: Color(0xff262626),
     900: Color(0xff171717),
   });
-  static const int _trueGrayPrimaryValue = (0xff737373);
+  static const int _trueGrayPrimaryValue = 0xff737373;
 
   /// The gray color and swatch.
   /// {@tool snippet}
@@ -480,7 +480,7 @@ class TWTwoColors {
     800: Color(0xff27272a),
     900: Color(0xff18181b),
   });
-  static const int _grayPrimaryValue = (0xff71717a);
+  static const int _grayPrimaryValue = 0xff71717a;
 
   /// The coolGray color and swatch.
   /// {@tool snippet}
@@ -504,7 +504,7 @@ class TWTwoColors {
     800: Color(0xff1f2937),
     900: Color(0xff111827),
   });
-  static const int _coolGrayPrimaryValue = (0xff6b7280);
+  static const int _coolGrayPrimaryValue = 0xff6b7280;
 
   /// The blueGray color and swatch.
   /// {@tool snippet}
@@ -528,5 +528,5 @@ class TWTwoColors {
     800: Color(0xff1e293b),
     900: Color(0xff0f172a),
   });
-  static const int _blueGrayPrimaryValue = (0xff64748b);
+  static const int _blueGrayPrimaryValue = 0xff64748b;
 }

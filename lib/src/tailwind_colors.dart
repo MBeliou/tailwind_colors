@@ -16,8 +16,6 @@ part 'tailwind_ui_colors.dart';
 ///
 ///  * [MaterialColor], which this class is based on.
 class TWColor extends ColorSwatch<int> {
-  final Map<int, Color> swatch;
-
   /// Creates a color swatch with a variety of shades.
   ///
   /// The `primary` argument should be the 32 bit ARGB value of one of the
@@ -25,6 +23,8 @@ class TWColor extends ColorSwatch<int> {
   /// for that same color, and as is exposed by [value]. (This is distinct from
   /// the specific index of the color in the swatch.)
   const TWColor(int primary, this.swatch) : super(primary, swatch);
+
+  final Map<int, Color> swatch;
 
   /// The lightest shade.
   Color? get shade50 => this[50];
@@ -57,6 +57,6 @@ class TWColor extends ColorSwatch<int> {
   Color get shade900 => this[900]!;
 
   MaterialColor get asMaterialColor {
-    return MaterialColor(this.shade500.value, swatch);
+    return MaterialColor(shade500.value, swatch);
   }
 }

@@ -15,7 +15,7 @@ class TWUIColors {
     800: Color(0xff252f3f),
     900: Color(0xff161e2e),
   });
-  static const int _grayPrimaryValue = (0xff6b7280);
+  static const int _grayPrimaryValue = 0xff6b7280;
 
   /// Cool Gray swatch and color
   static const TWColor cool_gray = TWColor(_cool_grayPrimaryValue, {
@@ -30,7 +30,7 @@ class TWUIColors {
     800: Color(0xff27303f),
     900: Color(0xff1a202e),
   });
-  static const int _cool_grayPrimaryValue = (0xff64748b);
+  static const int _cool_grayPrimaryValue = 0xff64748b;
 
   /// Red swatch and color
   static const TWColor red = TWColor(_redPrimaryValue, {
@@ -45,7 +45,7 @@ class TWUIColors {
     800: Color(0xff9b1c1c),
     900: Color(0xff771d1d),
   });
-  static const int _redPrimaryValue = (0xfff05252);
+  static const int _redPrimaryValue = 0xfff05252;
 
   /// Orange swatch and color
   static const TWColor orange = TWColor(_orangePrimaryValue, {
@@ -60,7 +60,7 @@ class TWUIColors {
     800: Color(0xff8a2c0d),
     900: Color(0xff771d1d),
   });
-  static const int _orangePrimaryValue = (0xffff5a1f);
+  static const int _orangePrimaryValue = 0xffff5a1f;
 
   /// Yellow swatch and color
   static const TWColor yellow = TWColor(_yellowPrimaryValue, {
@@ -75,7 +75,7 @@ class TWUIColors {
     800: Color(0xff723b13),
     900: Color(0xff633112),
   });
-  static const int _yellowPrimaryValue = (0xffc27803);
+  static const int _yellowPrimaryValue = 0xffc27803;
 
   /// Green swatch and color
   static const TWColor green = TWColor(_greenPrimaryValue, {
@@ -90,7 +90,7 @@ class TWUIColors {
     800: Color(0xff03543f),
     900: Color(0xff014737),
   });
-  static const int _greenPrimaryValue = (0xff0e9f6e);
+  static const int _greenPrimaryValue = 0xff0e9f6e;
 
   /// Teal swatch and color
   static const TWColor teal = TWColor(_tealPrimaryValue, {
@@ -105,7 +105,7 @@ class TWUIColors {
     800: Color(0xff05505c),
     900: Color(0xff014451),
   });
-  static const int _tealPrimaryValue = (0xff0694a2);
+  static const int _tealPrimaryValue = 0xff0694a2;
 
   /// Blue swatch and color
   static const TWColor blue = TWColor(_bluePrimaryValue, {
