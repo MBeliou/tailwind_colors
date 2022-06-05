@@ -6,7 +6,7 @@ import 'package:tailwind_colors/tailwind_colors.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
-  MyApp({Key key}) : super(key: key);
+  MyApp({Key? key}) : super(key: key);
 
   @override
   _MyAppState createState() => _MyAppState();
@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title, this.onPress}) : super(key: key);
+  const MyHomePage({Key? key, required this.title, required this.onPress}) : super(key: key);
   final String title;
   final VoidCallback onPress;
 
