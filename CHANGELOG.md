@@ -1,3 +1,8 @@
+## [0.3.1]
+* Setup very_good_analysis as a linter
+* Add Tailwind v3 colors
+* Add Unit tests
+
 ## [0.3.0-nullsafety.1] - Null Safety
 * Migrated to Null Safety
 * Add support for converting to a Material Color

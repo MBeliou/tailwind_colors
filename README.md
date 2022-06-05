@@ -8,7 +8,7 @@ Installation
 
 ```yaml
 dependencies:
-    tailwind_colors: ^0.2.2
+    tailwind_colors: ^0.3.1
 ```
 
 2. Get the package via your IDE or via the command line by typing:
@@ -60,7 +60,6 @@ TWTwoColors features the Tailwind 2.0 color palette:
 ## Use as a theme
 
 Every colors from the TWTwoColors and the TWUIColors palettes can be used.
-I recommend against using The older TWColors palette because of some null safety issues depending on your version of Flutter.
 
 ```dart
 return MaterialApp(
@@ -79,5 +78,5 @@ return MaterialApp(
 TODO
 ---
 
-- [ ] Create a parser for tailwind configuration files. Placeholder code can be found [here](https://gist.github.com/MBeliou/be358b9c68035f6061681010c49b448c)
+- [ ] Create a parser for tailwind configuration files. You can find a helpful script from [albemala](https://github.com/albemala) in the scripts folder.
 - [X] Make it possible to use the color swatch as is. (Like in ThemeData)

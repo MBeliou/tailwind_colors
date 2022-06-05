@@ -1,6 +1,6 @@
 name: tailwind_colors
 description: Easily use the TailwindCSS color palette in dart. Features both the first TailwindCSS, the TailwindCSS 2.0 and the TailwindUI color palettes.
-version: 0.3.0-nullsafety.1
+version: 0.3.1
 homepage: https://github.com/MBeliou/tailwind_colors
 
 environment:
